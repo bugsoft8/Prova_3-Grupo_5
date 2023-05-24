@@ -41,9 +41,9 @@
     margin-left: 300.5px;
     width: 988.5px;
     height: 60px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .setor--h {
@@ -71,14 +71,58 @@
     margin-left: 20px;
 }
 
+.botao1--h {
+    display: flex;
+    justify-content: space-between;
+    width: 377px;
+    height: 60px;
+    margin-right: 0px;
+}
 
+.login--h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 60px;
+    background-color: #FFE492;
+    border-radius: 8px;
+}
 
+.texto--h {
+    color: #043873;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    font-family: "inter";
+}
 
+.try--h {
+    width: 227px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #4F9CF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.texto2--h {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "inter";
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+}
 
-
-
-
+.seta2--h {
+    background-image: url(./components/img/icon_arrowl.svg);
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
 
 
 
