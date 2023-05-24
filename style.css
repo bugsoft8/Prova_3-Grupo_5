@@ -418,9 +418,6 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.title_descrição_principal{
-
-}
 
 .title_tela_principal>h2 {
     font-family: Inter;
@@ -446,26 +443,33 @@
 
 .descrição_tela_principal>p {
     font-family: Inter;
+    position: relative;
+    top: -10rem;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: -0.02em;
     text-align: center;
     display: flex;
-
+    align-items: center;
 }
 
 .button_tela_principal>button {
     display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -15rem;
+    align-items: center;
     font-family: Inter;
+    height: 70px;
+    width: 185px;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
     letter-spacing: -0.02em;
-    text-align: left;
     background-color: rgba(79, 156, 249, 1);
     border: none;
 }
 
-.vetor_button {}
