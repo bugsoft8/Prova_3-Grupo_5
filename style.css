@@ -407,3 +407,35 @@
 
 
 /* ----------------Gabriel---------------- */
+.tela_principal{
+    display: flex;
+    height: 817px;
+    width: 320px;
+    top: 578px;
+    padding: 0px 16px 0px 16px;
+    background-color: aqua;  /*Apagar dpps*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title_tela_principal>h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+
+.descrição_tela_principal{
+
+}
+
+.button_tela_principal{
+
+}
+
+.vetor_button{
+
+}
