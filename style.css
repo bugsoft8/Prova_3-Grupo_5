@@ -407,35 +407,65 @@
 
 
 /* ----------------Gabriel---------------- */
-.tela_principal{
+.tela_principal {
     display: flex;
+    align-items: center;
     height: 817px;
     width: 320px;
     top: 578px;
     padding: 0px 16px 0px 16px;
-    background-color: aqua;  /*Apagar dpps*/
+    background-color: aqua; /*Apagar dpps*/
     flex-direction: column;
     justify-content: space-around;
 }
+.title_descrição_principal{
 
-.title_tela_principal>h2{
+}
+
+.title_tela_principal>h2 {
     font-family: Inter;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     letter-spacing: -0.02em;
     text-align: center;
+    z-index: 10;
+    position: relative;
+    margin-top: ; 
+}
+
+.mancha_img_telaprincipal {
+    display: flex;
+    position: relative;
+    height: 25px;
+    width: 169px;
+    top: -27px;
+    left: 95px;
+    z-index: -1;
+}
+
+.descrição_tela_principal>p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    display: flex;
 
 }
 
-.descrição_tela_principal{
-
+.button_tela_principal>button {
+    display: flex;
+    font-family: Inter;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    background-color: rgba(79, 156, 249, 1);
+    border: none;
 }
 
-.button_tela_principal{
-
-}
-
-.vetor_button{
-
-}
+.vetor_button {}
