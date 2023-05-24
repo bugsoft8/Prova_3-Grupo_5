@@ -1,145 +1,59 @@
 .body {
-    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ----------------Alexandre---------------- */
 
 .header { /*defino o tamanho total da header*/
-    width: 1920px;
-    height: 92px;
+    width: 320px;
+    height: 56px;
     background-color: #043873;
     display: flex;
     align-items: center;
-}
-
-.logo--h {/*tamanho total da area do logo*/
-    margin-left: 220px;
-    display: flex;
-    align-items: center;
-    width: 191px;
-    height: 34px;
     justify-content: space-between;
 }
 
-.logoimg--h { /*insiro a logo e defino o tamanho*/
-    background-image: url(./components/img/logo.svg);
-    width: 37px;
-    height: 29px;
-}
-
-.titulo--h { /*defino o texto da logo*/
-    width: 144px;
-    height: 34px;
-    color: white;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 34px;
-    font-family: "inter";
-}/*ATÉ AQUI É IGUAL AO MOBILE*/
-
-.opcao--h {/*AQUI NÃO TEM NO MOBILE*/ /*defino o tamanho total que vou trabalhar as opções e botão*/
-    margin-left: 300.5px;
-    width: 988.5px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.setor--h { /*defino a primeira area de opções, sendo ela as 4*/
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 551.5px;
+.logo--h {
+    margin-left: 16px;
+    width: 133.97px;
     height: 24px;
-}
-
-.lista--h { /*defino como as 4 opções serão exibidas*/
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    font-family: "DM Sans";
     display: flex;
     align-items: center;
-}
-
-.seta { /*insiro a seta presente em cada uma das 4 opções*/
-    background-image: url(./components/img/icon_arrowl-down.svg);
-    width: 9px;
-    height: 6px;
-    margin-left: 20px;
-}
-
-.botao1--h {   /*defino o tamanho da área de colocareis os 2 botões*/
-    display: flex;
     justify-content: space-between;
-    width: 377px;
-    height: 60px;
-    margin-right: 0px;
 }
 
-.login--h { /*creio a caixa do botão 1*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 126px;
-    height: 60px;
-    background-color: #FFE492;
-    border-radius: 8px;
+.logoimg--h {
+    width: 25.96px;
+    height: 20.35px;
 }
 
-.texto--h { /*edito o texto dentro do botão 1*/
-    color: #043873;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    font-family: "inter";
-}
-
-.try--h {/*crio a caixa 2*/
-    width: 227px;
-    height: 60px;
-    border-radius: 8px;
-    background-color: #4F9CF9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.texto2--h { /*defino o texto dentro da caixa 2*/
-    display: flex;
-    align-items: center;
+.logotext--h {
     color: white;
-    font-family: "inter";
-    font-size: 18px;
-    line-height: 23px;
-    font-weight: 500;
+    width: 101px;
+    height: 24px;
+    font-size: 19.644px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
-.seta2--h { /*insiro a seta de caixa 2*/
-    background-image: url(./components/img/icon_arrowl.svg);
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
+.opc--h {
+    width: 42px;
+    height: 24px;
+    margin-right: 16px;
 }
 
+.hr,.hr2 {
+    width: 42px;
+    height: 1.5px;
+    background-color: white;
+    border: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hr2 {
+    margin-top: 10px;
+}
 
 
 
