@@ -4,11 +4,47 @@
 
 /* ----------------Alexandre---------------- */
 
+.header {
+    width: 1920px;
+    height: 92px;
+    background-color: #043873;
+    display: flex;
+    align-items: center;
+}
 
+.logo--h {
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+    width: 191px;
+    height: 34px;
+    justify-content: space-between;
+}
 
+.logoimg--h {
+    background-image: url(./components/img/logo.svg);
+    width: 37px;
+    height: 29px;
+}
 
+.titulo--h {
+    width: 144px;
+    height: 34px;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: "inter";
+}
 
-
+.opcao--h {
+    margin-left: 300.5px;
+    width: 988.5px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
 
 
 
