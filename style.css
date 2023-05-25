@@ -243,9 +243,54 @@
 
 /* ----------------Gustavo---------------- */
 
+.body_title {
+    height: 582px;
+    background-color: rgba(4, 56, 115, 1);
+    ;
+    background-image: url(components/img/background_mobile.svg);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+}
 
 
+.title>h1 {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+}
 
+.title>p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    padding-top: 24px;
+    margin: 16px;
+}
+
+.title>button {
+    margin-top: 60px;
+    background-color: rgba(79, 156, 249, 1);
+    ;
+    width: 232px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-left: 44px;
+    
+}
 
 
 
