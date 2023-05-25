@@ -175,4 +175,9 @@
         justify-content: space-between;
         padding: 16px 32px;
     }
+    .footer_social {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
 }

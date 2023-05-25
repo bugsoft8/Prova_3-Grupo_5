@@ -282,7 +282,5 @@
 .footer_social {
     width: 105px;
     height: 17px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    display: none;
 }
