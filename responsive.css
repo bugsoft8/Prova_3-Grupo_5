@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+    .header {
+        height: 66px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .logotext--h {
+        font-size: 28px;
+    }
+
+    .logo--h {
+        width: 191px;
+    }
+
+    .logoimg--h {
+        width: 37px;
+        height: 29px;
+    }
+
+    .opc--h {
+        margin-top: 5px;
+    }
+}

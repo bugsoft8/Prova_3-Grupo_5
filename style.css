@@ -1,8 +1,4 @@
-.body {
-    /* width: 320px; */
-}
-
-/* ----------------Alexandre---------------- */
+/* ----------------HEADER---------------- */
 
 .header { /*defino o tamanho total da header*/
     background-color: #043873;
@@ -52,7 +48,7 @@
 /* FIM HEADER */
 
 .footer {
-    width: 320px;
+    /* width: 320px; */
     height: 210px;
     background-color: #043873;
     margin-bottom: 0px;
