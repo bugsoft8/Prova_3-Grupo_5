@@ -50,4 +50,19 @@
         width: 454px;
         height: 422px;
     }
+
+    /* FOOTER */
+    .footer {
+        height: 137px;
+
+        /* align-content: center; */
+        /* padding-left: 32px; */
+        /* padding-right: 32px; */
+    }
+    
+    .container--f {
+        width: 704px;
+        height: 40px;
+        flex-direction: row;
+    }
 }
