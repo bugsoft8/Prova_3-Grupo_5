@@ -436,8 +436,8 @@
     height: 25px;
     width: 50%;
     top: -29px;
-    transform: scale(100%) scaleY(200%);
-    left: 105px;
+    transform: scale(115%) scaleY(200%);
+    left: 115px;
     z-index: -1;
 }
 
@@ -475,5 +475,6 @@
 
 .img_bolinhas_telaprincipal{
     display: flex;
-    j
+    position: relative;
+    top: 150px;
 }
