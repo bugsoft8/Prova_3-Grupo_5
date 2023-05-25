@@ -105,7 +105,7 @@
         display: flex;
         justify-content: space-between;
     }
-
+    /* ---------pagina_02------------- */
     .body_title {
         height: 100vh;
         padding-top: 270px;
@@ -128,5 +128,38 @@
         height: 254px;
         align-items: flex-start;
         text-align: left;
+    }
+    /* ------------- principal ----------- */
+    .tela_principal {
+        height: 120vh;
+        flex-direction:row-reverse;
+    }
+    .tela_principal-container {
+        width: 666px;
+        height: 294px;
+        align-items: flex-start;
+    }
+    .title_tela_principal {
+        width: 666px;
+        height: 171px;
+        text-align:left ;  
+        align-items: flex-start;
+    }
+    .title_tela_principal >p {
+        text-align: left;
+    }
+    .div_h2 > h2 {
+        width: 666px;
+        text-align: left;
+    }
+    .img_bolinhas_telaprincipal >img {
+        width: 550px;
+        height: 470px;
+    }
+    .button_tela_principal {
+        width: 186px;
+        height: 63px;
+        font-size: 18px;
+        line-height: 23px;
     }
 }
