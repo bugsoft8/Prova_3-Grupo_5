@@ -1,20 +1,20 @@
 .body {
-    width: 320px;
+    /* width: 320px; */
 }
 
 /* ----------------Alexandre---------------- */
 
 .header { /*defino o tamanho total da header*/
-    width: 320px;
-    height: 56px;
     background-color: #043873;
+    height: 56px;
+    padding: 16px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo--h {
-    margin-left: 16px;
     width: 133.97px;
     height: 24px;
     display: flex;
@@ -28,30 +28,27 @@
 }
 
 .logotext--h {
-    color: white;
-    width: 101px;
-    height: 24px;
-    font-size: 19.644px;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
-    line-height: 24px;
+    font-size: 19.644px;
+    color: #ffffff;
+    /* line-height: 24px; */
 }
 
 .opc--h {
     width: 42px;
     height: 24px;
-    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.hr,.hr2 {
-    width: 42px;
-    height: 1.5px;
+.opc--h>hr {
+    height: 2px;
     background-color: white;
     border: none;
 }
 
-.hr2 {
-    margin-top: 10px;
-}
 /* FIM HEADER */
 
 .footer {
@@ -247,7 +244,7 @@
     height: 582px;
     background-color: rgba(4, 56, 115, 1);
     ;
-    background-image: url(components/img/background_mobile.svg);
+    /* background-image: url(components/img/background_mobile.svg); */
 }
 
 .title {
@@ -535,10 +532,6 @@
     line-height: 30px;
     letter-spacing: -0.02em;
     text-align: center;
-}
-
-.button_tela_principal{
-
 }
 
 .button_tela_principal>button {
