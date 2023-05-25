@@ -105,4 +105,28 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .body_title {
+        height: 100vh;
+        padding-top: 270px;
+        padding-left: 32px;
+        padding-right: 32px;
+        background-image: url(./components/img/background_desktop.svg);
+        background-position: center;
+    }
+    .body_title > h1 {
+        font-size: 64px;
+        line-height: 77px;
+    }
+    .body_title > button {
+        width: 219px ;
+        height: 63px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+    .title {
+        height: 254px;
+        align-items: flex-start;
+        text-align: left;
+    }
 }
