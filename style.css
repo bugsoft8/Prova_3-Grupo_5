@@ -492,3 +492,74 @@
 
 
 /* ----------------Gabriel---------------- */
+.tela_principal {
+    display: flex;
+    align-items: center;
+    height: 817px;
+    width: 320px;
+    top: 578px;
+    padding: 0px 16px 0px 16px;
+    flex-direction: column;
+    font-family: Inter;
+}
+
+.title_tela_principal>h2 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    z-index: 10;
+    margin-top: 74px;
+ 
+}
+
+.mancha_img_telaprincipal {
+    display: flex;
+    position: relative;
+    height: 25px;
+    width: 50%;
+    top: -29px;
+    transform: scale(115%) scaleY(200%);
+    left: 115px;
+    z-index: -1;
+}
+
+.descrição_tela_principal>p {
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.button_tela_principal{
+
+}
+
+.button_tela_principal>button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 185px;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    background-color: rgba(79, 156, 249, 1);
+    border: none;
+    top: 60px;
+
+}
+
+.img_bolinhas_telaprincipal{
+    display: flex;
+    position: relative;
+    top: 150px;
+}
