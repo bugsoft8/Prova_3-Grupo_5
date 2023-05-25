@@ -218,16 +218,14 @@
 }
 /* ------------------- Header_desktop ---------------------*/
 .header_elements {
-    width: 988.5px;
+    width: 900px;
     height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
+    display: none;
 }
 .setor--h {
-    display: none;
-    width: 551.5px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
     height: 24px;
 }
 .setor--h > li {

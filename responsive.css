@@ -87,14 +87,20 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1260px) {
     .header {
         height: 92px;
+    }
+    .header_elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
     }
     .opc--h {
         display: none;
     }
-
+    
     .setor--h {
         display: flex;
         justify-content: space-between;
