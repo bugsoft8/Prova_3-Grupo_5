@@ -216,3 +216,68 @@
     line-height: 20px;
     color: white;
 }
+/* ------------------- Header_desktop ---------------------*/
+.header_elements {
+    width: 988.5px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.setor--h {
+    display: none;
+    width: 551.5px;
+    height: 24px;
+}
+.setor--h > li {
+    font-family: 'DM Sans', sans-serif; 
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+   
+    display: flex;
+    align-items: center;
+}
+.seta { 
+    background-image: url(./components/img/icon_arrowl-down.svg);
+    width: 9px;
+    height: 6px;
+    margin-left: 20px;
+}
+.header_btns {
+    width: 377px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_login {
+    width: 126px;
+    height: 60px;
+    background: #FFE492;
+    border-radius: 8px;
+    border-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #043873;
+}
+.btn_try{
+    width: 227px;
+    height: 60px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    border-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}

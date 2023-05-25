@@ -86,3 +86,17 @@
         flex-direction: row;
     }
 }
+
+@media (min-width: 1024px) {
+    .header {
+        height: 92px;
+    }
+    .opc--h {
+        display: none;
+    }
+
+    .setor--h {
+        display: flex;
+        justify-content: space-between;
+    }
+}
