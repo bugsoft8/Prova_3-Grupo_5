@@ -40,10 +40,30 @@
     /* SECONDARY PAGE */
     .tela_principal {
         height: 1002px;
+        padding: 106px 20px;
+    }
+
+    .title_tela_principal {
+        height: 149px;
+        justify-content: start;
+        gap: 24px;
+    }
+
+    .tela_principal-container {
+        height: 268px;
     }
 
     .div_h2>h2 {
         font-size: 54px;
+        line-height: 65px;
+    }
+
+    .button_tela_principal {
+        width: 177px;
+        height: 69px;
+
+        font-weight: 500;
+        font-size: 16px;
     }
 
     .img_bolinhas_telaprincipal>img {
