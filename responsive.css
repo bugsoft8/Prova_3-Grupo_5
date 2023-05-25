@@ -24,6 +24,10 @@
     }
 
     /* PRIMARY PAGE */
+    .body_title {
+        height: 584px;
+    }
+
     .title>h1 {
         font-size: 54px;
     }
@@ -31,5 +35,19 @@
     .body_title {
         background-image: url(./components/img/background_tablet.svg);
         background-size: 100% auto; 
+    }
+
+    /* SECONDARY PAGE */
+    .tela_principal {
+        height: 1002px;
+    }
+
+    .div_h2>h2 {
+        font-size: 54px;
+    }
+
+    .img_bolinhas_telaprincipal>img {
+        width: 454px;
+        height: 422px;
     }
 }

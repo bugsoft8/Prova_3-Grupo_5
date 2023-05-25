@@ -93,60 +93,79 @@
     height: 70px;
     border-radius: 8px;
     border: none;
-    color: white;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
-/* ----------------Gabriel---------------- */
-.tela_principal {
+/* ----------------Secondary Page---------------- */
+.flex {
     display: flex;
-    align-items: center;
-    height: 817px;
-    width: 320px;
-    top: 578px;
-    padding: 0px 16px 0px 16px;
     flex-direction: column;
-    font-family: Inter;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.title_tela_principal>h2 {
-    font-family: Inter;
+.tela_principal {
+    height: 817px;
+    padding: 74px 16px;
+}
+
+.tela_principal-container {
+    height: 348px;
+}
+
+.title_tela_principal {
+    height: 218px;
+}
+
+/* .mancha_img_telaprincipal {
+    position: relative;
+    display: flex;
+    top: -29px;
+    width: 169.55px;
+    height: 25.43px;
+    left: 115px;
+    z-index: -1;
+} */
+
+.background_mancha {
+    background-image: url(./components/img/mancha_together.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center ;
+    background-size: auto;
+}
+
+.div_h2>h2 {
+    display: inline;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     letter-spacing: -0.02em;
     text-align: center;
-    z-index: 10;
-    margin-top: 74px;
-
 }
 
-.mancha_img_telaprincipal {
-    display: flex;
-    position: relative;
-    height: 25px;
-    width: 50%;
-    top: -29px;
-    transform: scale(115%) scaleY(200%);
-    left: 115px;
-    z-index: -1;
-}
-
-.descrição_tela_principal>p {
-    display: flex;
-    align-items: center;
-    font-family: Inter;
+.title_tela_principal>p {
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: -0.02em;
+
+
     text-align: center;
 }
 
-.button_tela_principal>button {
-    display: flex;
-    position: relative;
-    align-items: center;
+
+.button_tela_principal {
     width: 185px;
+    height: 70px;
     border-radius: 8px;
     padding: 20px 40px 20px 40px;
     color: rgba(255, 255, 255, 1);
@@ -155,14 +174,11 @@
     letter-spacing: -0.02em;
     background-color: rgba(79, 156, 249, 1);
     border: none;
-    top: 60px;
-
 }
 
-.img_bolinhas_telaprincipal {
-    display: flex;
-    position: relative;
-    top: 150px;
+.img_bolinhas_telaprincipal>img {
+    width: 279px;
+    height: 260px;
 }
 
 
@@ -170,7 +186,7 @@
 
 
 
-/*FIM FOOTER*/
+/* ----------------Footer---------------- */
 .footer {
     /* width: 320px; */
     height: 210px;
@@ -201,5 +217,3 @@
 .texto--f {
     margin-top: 20px;
 }
-
-/*FIM FOOTER*/
