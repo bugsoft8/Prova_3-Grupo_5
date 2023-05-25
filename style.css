@@ -1,6 +1,6 @@
 /* ----------------HEADER---------------- */
 
-.header { /*defino o tamanho total da header*/
+.header { 
     background-color: #043873;
     height: 56px;
     padding: 16px;
@@ -28,7 +28,6 @@
     font-weight: 700;
     font-size: 19.644px;
     color: #ffffff;
-    /* line-height: 24px; */
 }
 
 .opc--h {
@@ -48,21 +47,14 @@
 /* FIM HEADER */
 
 
-/* ----------------Gustavo---------------- */
+/* ----------------Primary page---------------- */
 .body_title {
-    /* height: 522px; */
     padding: 80px 16px;
 
     background-color: rgba(4, 56, 115, 1);
-    background-image: url(./components/img/background_mobile.svg);
+    background-image: url(./components/img/background_mobile2.svg);
     background-repeat: no-repeat;
-    /* background-size:; */
-    /* background-size: 100% 700px; */
-    background-position: left top;
-    /* background-position: left; */
-    /* background-position:right; */
-    /* background-attachment: fixed; */
-
+    background-size: 100% 790px ; 
 }
 
 .title {
@@ -92,12 +84,10 @@
     font-size: 18px;
     line-height: 30px;
     letter-spacing: -0.02em;
-    /* padding-top: 24px; */
     margin-bottom: 35px;
 }
 
 .title>button {
-    /* margin-top: 60px; */
     background-color: rgba(79, 156, 249, 1);
     width: 232px;
     height: 70px;
