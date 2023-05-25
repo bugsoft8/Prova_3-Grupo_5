@@ -1,6 +1,6 @@
 /* ----------------HEADER---------------- */
 
-.header { 
+.header {
     background-color: #043873;
     height: 56px;
     padding: 16px;
@@ -54,7 +54,7 @@
     background-color: rgba(4, 56, 115, 1);
     background-image: url(./components/img/background_mobile2.svg);
     background-repeat: no-repeat;
-    background-size: 100% 790px ; 
+    background-size: 100% 790px;
 }
 
 .title {
@@ -96,8 +96,6 @@
     color: white;
 }
 
-
-
 /* ----------------Gabriel---------------- */
 .tela_principal {
     display: flex;
@@ -119,7 +117,7 @@
     text-align: center;
     z-index: 10;
     margin-top: 74px;
- 
+
 }
 
 .mancha_img_telaprincipal {
@@ -161,7 +159,7 @@
 
 }
 
-.img_bolinhas_telaprincipal{
+.img_bolinhas_telaprincipal {
     display: flex;
     position: relative;
     top: 150px;

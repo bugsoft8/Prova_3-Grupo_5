@@ -1,4 +1,5 @@
 @media (min-width: 768px) {
+    /* HEADER */
     .header {
         height: 66px;
         padding-left: 32px;
@@ -20,5 +21,15 @@
 
     .opc--h {
         margin-top: 5px;
+    }
+
+    /* PRIMARY PAGE */
+    .title>h1 {
+        font-size: 54px;
+    }
+
+    .body_title {
+        background-image: url(./components/img/background_tablet.svg);
+        background-size: 100% auto; 
     }
 }
