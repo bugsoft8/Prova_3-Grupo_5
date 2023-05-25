@@ -414,9 +414,8 @@
     width: 320px;
     top: 578px;
     padding: 0px 16px 0px 16px;
-    background-color: aqua; /*Apagar dpps*/
     flex-direction: column;
-    justify-content: space-around;
+    font-family: Inter;
 }
 
 .title_tela_principal>h2 {
@@ -427,41 +426,40 @@
     letter-spacing: -0.02em;
     text-align: center;
     z-index: 10;
-    position: relative;
-    margin-top: ; 
+    margin-top: 74px;
+ 
 }
 
 .mancha_img_telaprincipal {
     display: flex;
     position: relative;
     height: 25px;
-    width: 169px;
-    top: -27px;
-    left: 95px;
+    width: 50%;
+    top: -29px;
+    transform: scale(100%) scaleY(200%);
+    left: 105px;
     z-index: -1;
 }
 
 .descrição_tela_principal>p {
+    display: flex;
+    align-items: center;
     font-family: Inter;
-    position: relative;
-    top: -10rem;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: -0.02em;
     text-align: center;
-    display: flex;
-    align-items: center;
+}
+
+.button_tela_principal{
+
 }
 
 .button_tela_principal>button {
     display: flex;
-    justify-content: space-between;
     position: relative;
-    top: -15rem;
     align-items: center;
-    font-family: Inter;
-    height: 70px;
     width: 185px;
     border-radius: 8px;
     padding: 20px 40px 20px 40px;
@@ -471,5 +469,11 @@
     letter-spacing: -0.02em;
     background-color: rgba(79, 156, 249, 1);
     border: none;
+    top: 60px;
+
 }
 
+.img_bolinhas_telaprincipal{
+    display: flex;
+    j
+}
